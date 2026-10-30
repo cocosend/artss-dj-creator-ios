@@ -1,0 +1,19 @@
+{
+  "name": "react-native-artss-audio",
+  "version": "0.1.0",
+  "description": "ARTSS real-time CoreAudio PCM engine",
+  "main": "src/index.ts",
+  "codegenConfig": {
+    "name": "ArtssAudioSpec",
+    "type": "modules",
+    "jsSrcsDir": "src",
+    "ios": {
+      "modulesProvider": {
+        "NativeArtssAudio": "ArtssAudioModuleProvider"
+      }
+    }
+  },
+  "author": "ARTSS",
+  "license": "UNLICENSED",
+  "homepage": "https://reactnative.dev"
+}
